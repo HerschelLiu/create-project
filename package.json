@@ -1,0 +1,40 @@
+{
+  "name": "create-herschel-project",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "^20.15.0"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "bin": {
+    "create-herschel-project": "dist/index.js"
+  },
+  "keywords": [],
+  "author": "herscheliu",
+  "license": "MIT",
+  "description": "安装私有project",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "degit": "^2.8.4",
+    "execa": "^9.5.2",
+    "fast-glob": "^3.3.3",
+    "inquirer": "^12.5.2",
+    "ora": "^8.2.0",
+    "replace-in-file": "^8.3.0",
+    "replace-in-files": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/node": "^22.14.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
