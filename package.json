@@ -13,7 +13,7 @@
     "typecheck": "tsc --noEmit"
   },
   "bin": {
-    "create-herschel-project": "dist/index.js"
+    "run": "dist/index.js"
   },
   "keywords": [],
   "author": "herscheliu",
