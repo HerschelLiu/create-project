@@ -1,6 +1,6 @@
 {
   "name": "create-herscheliu-project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "engines": {
     "node": "^20.15.0"

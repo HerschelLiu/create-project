@@ -26,7 +26,7 @@ export async function run(projectName?: string): Promise<void> {
     await installDependencies(projectPath);
 
     console.log('✅ 项目创建成功！');
-
+    process.exit(0)
   } catch (error: any) {
     console.error('❌ 创建失败:', error.message);
     process.exit(1);
